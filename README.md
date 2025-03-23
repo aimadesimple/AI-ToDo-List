@@ -204,7 +204,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-For support, please [open an issue](https://github.com/aimadesimple/AI-ToDo-List/issues) in the GitHub repository or contact the maintainers at support@aimadesimple.com.
+For support, please [open an issue](https://github.com/aimadesimple/AI-ToDo-List/issues) in the GitHub repository or contact the maintainers at contact@aimadesimple.com.
 
 ---
 
