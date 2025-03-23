@@ -3,7 +3,7 @@
 An intelligent task management application that combines the power of AI with a user-friendly interface to help users organize, track, and complete their tasks efficiently.
 
 <p align="center">
-  <img src="/api/placeholder/800/400" alt="AI Task Management Assistant Screenshot" />
+  <img width="1509" alt="image" src="https://github.com/user-attachments/assets/26ce7597-2f0d-4cd1-86ca-b0c7dbe39d32" />
 </p>
 
 ## ✨ Features
