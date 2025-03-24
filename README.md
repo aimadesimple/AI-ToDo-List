@@ -59,6 +59,12 @@ npm install --legacy-peer-deps
 OPENAI_API_KEY=your_openai_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
+If deploying this repo to server, please add the below in addition to the environment variables in addition to the above:
+
+```env
+NEXT_PUBLIC_API_URL=your_deployment_url 
+```
+This can be your custom domain like https://www.example.com or something like https://ai-to-do-list-one.vercel.app
 
 4. **Start the development server:**
 
