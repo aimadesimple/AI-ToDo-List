@@ -1,12 +1,21 @@
+
 import { tool } from '@langchain/core/tools';
 import { z } from 'zod';
 import type { Task } from "@/lib/types";
 import { TaskEvents } from "@/contexts/task-refresh"
 
 // Base URL for API calls
-const BASE_URL = typeof window !== 'undefined' 
-  ? window.location.origin 
-  : process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+// const BASE_URL = typeof window !== 'undefined' 
+//   ? window.location.origin 
+//   : process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+
+const BASE_URL =
+  typeof window !== 'undefined'
+    ? window.location.origin
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+
 
 /**
  * Tool to get all tasks with optional filtering by status
