@@ -19,7 +19,7 @@ An intelligent task management application that combines the power of AI with a 
 
 ## 🛠️ Tech Stack
 
-- [Next.js](https://nextjs.org/) 15.1.0
+- [Next.js](https://nextjs.org/) >=15.2.3
 - [React](https://react.dev/) 19
 - [TypeScript](https://www.typescriptlang.org/)
 - [LangChain](https://js.langchain.com/docs/) for AI orchestration
